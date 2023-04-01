@@ -124,3 +124,29 @@ textarea {
 .submitForm:hover {
   cursor: pointer;
 }
+.post{
+  background-color:#332c2c;
+  color: #ccc;
+
+  margin: 3em;
+  padding: 3em;
+  font-size: 1.3em;
+
+}
+.post .title{
+  color:#b8a77c;
+}
+.post .body{
+  color: #ccc;
+}
+.post .footer{
+  color:#fff
+}
+.like{
+  font-size: 2em;
+  border: none;
+  border-radius: 5px;
+}
+.post .likeNumber{
+  color:rgb(167, 122, 63)
+}
