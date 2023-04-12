@@ -23,10 +23,13 @@ export const  Main=()=>{
         
     },[])
     return(
-        <div>{
+        <div>
+            <h1>home page</h1>
+            {
             postsList?.map((post)=>{
               return  <Post post={post}/>
             })
-            }</div>
+            }
+         </div>
     )
 }
